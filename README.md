@@ -3,7 +3,7 @@ jquery.forwardevents
 
 jQuery plugin which forwards mouse events from one DOM Element to another.
 
-Based on the jQuery code from http://e-infotainment.com/applications/jquery-plugins/behaviours/forward-mouse-events/
+Extracted from the jQuery extention [iQuery](https://web.archive.org/web/20150813005633/http://e-infotainment.com/projects/interface-query/)
 
 
 Usage:
@@ -12,7 +12,7 @@ Usage:
 
 2. In your document ready code:
 
-  $('.mask').forwardevents();
+   $('.mask').forwardevents();
 
 This will forward all of $('.mask')'s events to the element directly underneath. It does this by rapidly hiding and showing .mask, so it may or may not be suitable for your purposes.
 
